@@ -1,4 +1,4 @@
-<img src="./images/arch.png" width="50%" height="50%" alt="TOC" align=center >.
+![header ](images/arch.png)
 
 # DiffBind: A SE(3) Equivariant Network for Accurate Full-Atom Semi-Flexible Protein-Ligand Docking
 
