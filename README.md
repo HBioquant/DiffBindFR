@@ -3,7 +3,7 @@
 [![OT-CFM Preprint](http://img.shields.io/badge/paper-arxiv.2311.15201-B31B1B.svg)](https://arxiv.org/abs/2311.15201)
 [![pytorch](https://img.shields.io/badge/PyTorch_1.13+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
 
-This is the official repository for the DiffBind, which is the accurate diffusion model based protein-ligand flexible docking method. The codes will be released after the paper was accepted.
+This is the official repository for the DiffBindFR, which is the accurate diffusion model based flexible protein-ligand docking method. The codes will be released after the paper was accepted.
 
 ![header ](images/arch.png)
 
