@@ -1,0 +1,295 @@
+3pp0_ligand
+                    3D
+ Schrodinger Suite 2021-3.
+ 53 56  0  0  1  0            999 V2000
+   12.9040   15.4160   27.6660 O   0  0  0  0  0  0
+   12.7010   15.4320   29.0830 C   0  0  0  0  0  0
+   13.6420   14.4880   29.8430 C   0  0  0  0  0  0
+   14.2820   13.5780   28.9490 O   0  0  0  0  0  0
+   14.3860   12.2360   29.4150 C   0  0  0  0  0  0
+   15.2870   11.5040   28.4250 C   0  0  0  0  0  0
+   16.7110   11.4550   28.8350 N   0  0  0  0  0  0
+   17.2480   10.4260   29.5520 C   0  0  0  0  0  0
+   18.5700   10.6210   29.7440 C   0  0  0  0  0  0
+   18.9150   11.8710   29.0910 C   0  0  0  0  0  0
+   20.0600   12.5660   28.9470 N   0  0  0  0  0  0
+   20.0730   13.7020   28.2760 C   0  0  0  0  0  0
+   18.9650   14.2110   27.7290 N   0  0  0  0  0  0
+   17.7780   13.5830   27.8240 C   0  0  0  0  0  0
+   16.6330   14.1290   27.2530 N   0  0  0  0  0  0
+   16.6740   15.2830   26.4610 C   0  0  0  0  0  0
+   15.8300   16.3470   26.7750 C   0  0  0  0  0  0
+   15.8160   17.4600   26.0650 N   0  0  0  0  0  0
+   16.6130   17.6270   25.0380 C   0  0  0  0  0  0
+   16.5470   18.8100   24.3620 O   0  0  0  0  0  0
+   17.3830   19.8530   24.6570 C   0  0  0  0  0  0
+   18.4440   19.7380   25.5530 C   0  0  0  0  0  0
+   19.2830   20.8190   25.8100 C   0  0  0  0  0  0
+   19.0830   22.0330   25.1770 C   0  0  0  0  0  0
+   18.0320   22.1390   24.2780 C   0  0  0  0  0  0
+   17.1940   21.0640   24.0140 C   0  0  0  0  0  0
+   17.8170   23.4520   23.5920 C   0  0  0  0  0  0
+   16.8670   23.4020   22.5930 F   0  0  0  0  0  0
+   19.0360   23.8760   23.0710 F   0  0  0  0  0  0
+   17.3300   24.3620   24.4970 F   0  0  0  0  0  0
+   17.4910   16.6020   24.6570 C   0  0  0  0  0  0
+   18.5300   16.8010   23.2920 Cl  0  0  0  0  0  0
+   17.5300   15.4110   25.3730 C   0  0  0  0  0  0
+   17.7100   12.3580   28.5250 C   0  0  0  0  0  0
+   12.4995   16.1942   27.2755 H   0  0  0  0  0  0
+   11.6670   15.1668   29.3034 H   0  0  0  0  0  0
+   12.8296   16.4483   29.4555 H   0  0  0  0  0  0
+   13.0727   13.9280   30.5849 H   0  0  0  0  0  0
+   14.3974   15.0733   30.3674 H   0  0  0  0  0  0
+   13.3983   11.7750   29.4153 H   0  0  0  0  0  0
+   14.8508   12.2298   30.4009 H   0  0  0  0  0  0
+   15.2086   11.9775   27.4464 H   0  0  0  0  0  0
+   14.9169   10.4888   28.2816 H   0  0  0  0  0  0
+   16.6204    9.6098   29.8781 H   0  0  0  0  0  0
+   19.1471    9.8982   30.3016 H   0  0  0  0  0  0
+   20.9971   14.2480   28.1565 H   0  0  0  0  0  0
+   15.7353   13.6916   27.4045 H   0  0  0  0  0  0
+   15.1619   16.2750   27.6205 H   0  0  0  0  0  0
+   18.6245   18.8010   26.0589 H   0  0  0  0  0  0
+   20.0994   20.7146   26.5093 H   0  0  0  0  0  0
+   19.7367   22.8663   25.3882 H   0  0  0  0  0  0
+   16.3904   21.1774   23.3015 H   0  0  0  0  0  0
+   18.1943   14.6010   25.1103 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 35  1  0  0  0
+  2  3  1  0  0  0
+  2 36  1  0  0  0
+  2 37  1  0  0  0
+  3  4  1  0  0  0
+  3 38  1  0  0  0
+  3 39  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  5 40  1  0  0  0
+  5 41  1  0  0  0
+  6  7  1  0  0  0
+  6 42  1  0  0  0
+  6 43  1  0  0  0
+  7  8  1  0  0  0
+  7 34  1  0  0  0
+  8  9  2  0  0  0
+  8 44  1  0  0  0
+  9 10  1  0  0  0
+  9 45  1  0  0  0
+ 10 11  2  0  0  0
+ 10 34  1  0  0  0
+ 11 12  1  0  0  0
+ 12 13  2  0  0  0
+ 12 46  1  0  0  0
+ 13 14  1  0  0  0
+ 14 15  1  0  0  0
+ 14 34  2  0  0  0
+ 15 16  1  0  0  0
+ 15 47  1  0  0  0
+ 16 17  1  0  0  0
+ 16 33  2  0  0  0
+ 17 18  2  0  0  0
+ 17 48  1  0  0  0
+ 18 19  1  0  0  0
+ 19 20  1  0  0  0
+ 19 31  2  0  0  0
+ 20 21  1  0  0  0
+ 21 22  1  0  0  0
+ 21 26  2  0  0  0
+ 22 23  2  0  0  0
+ 22 49  1  0  0  0
+ 23 24  1  0  0  0
+ 23 50  1  0  0  0
+ 24 25  2  0  0  0
+ 24 51  1  0  0  0
+ 25 26  1  0  0  0
+ 25 27  1  0  0  0
+ 26 52  1  0  0  0
+ 27 28  1  0  0  0
+ 27 29  1  0  0  0
+ 27 30  1  0  0  0
+ 31 32  1  0  0  0
+ 31 33  1  0  0  0
+ 33 53  1  0  0  0
+M  END
+> <i_m_stars>
+0
+
+> <s_m_entry_id>
+289
+
+> <s_m_entry_name>
+Structure289
+
+> <s_pdb_PDB_TITLE>
+CRYSTAL STRUCTURE OF THE KINASE DOMAIN OF HUMAN HER2 (ERBB2).
+
+> <s_pdb_PDB_ID>
+3PP0
+
+> <r_pdb_PDB_CRYST1_a>
+48.705
+
+> <r_pdb_PDB_CRYST1_b>
+78.951
+
+> <r_pdb_PDB_CRYST1_c>
+152.675
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+90
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+P 21 21 21
+
+> <i_pdb_PDB_CRYST1_z>
+8
+
+> <s_pdb_PDB_CLASSIFICATION>
+TRANSFERASE/TRANSFERASE INHIBITOR
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+23-NOV-10
+
+> <s_pdb_PDB_format_version>
+3.30
+
+> <r_pdb_PDB_R>
+0.185
+
+> <r_pdb_PDB_Rfree>
+0.26
+
+> <r_pdb_PDB_RESOLUTION>
+2.25
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_PH>
+6.5
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+D:\msc\VS\DEKOIS_2.0x\erbb2\erbb2_prot
+
+> <s_m_Source_File>
+3pp0.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+287
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2021-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <s_psp_EXECUTE_FUNCTION_Input_Structure_Hash>
+16fac372c6a3f1cc09c2a0d1c0101c1d6ea595bb24cc225463326660
+
+> <s_ppw_het_states>
+eJytVLty3DAM/BWNajshQFEPu0uVNpPSk+LGcRXnzsWlyHj87yEALlenOtdgsQcuQIDC+yjjw/BUf3I3pB93w5M2m5udmi3Nzs0uza7Nbs1KAoCiQFKgKRAVqApkBboCYYGyQll7rVBWKCuUFcoKZYWyQlmhnKGcoZx7G6CcXdmQtar+La1bucFqpwarLQ1WOzdY7dJgtSthxrnK1ZK0tdM6KWipdVPh9APGCmpxkBFmZfUwA2XnmIBiAIICHSw7J3c1Y1c4VvqGMCs47ZyMQo21SQlGprp3ZoRVVpHHAao2YGNUzFNRqDso1ICue2fbORm1WV1Z944Prnr36VMNeh/FPoVwRskVN7gG/KjzdeL79XR9Gd5ezqfX6984kYZfz6fXz78vr4/D1/svl/PP4fny53x9GPLj8K0eHy3RqO1bm7YVb7DCrcMtEQqhEmbCibAQzoQLIbNtyFZSSoRCqISZcCIshDPhQrgSMpswmzCbMJswmzCbMJswmzCbMJswmzJbbAv/cKPv0XJh96PxwhlE+0GIE0pCncgkshMTicmJckNEJSCKR+AjCBgzQ8TixMqI5ajhd9l4F4MxVuWEY7jCOceIbwgVHlGPyIzITkwHQndZ/HKpkChOzDwyO7EciL5R4r94OYhYndgORN9v8V88K+ULi8clfGfxxBCh0JAbgpcTv0vflZ2YjwTvIlHYdiBiKe7Wiw2MC8aG01eMtez/LJmPf2g5pFo=
+
+> <b_ppw_ran_protassign>
+1
+
+> <b_ppw_deleted_far_waters>
+1
+
+> <r_pdb_PDB_EXPDTA_TEMPERATURE>
+100
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Chains>
+B
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_2_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_ff_OPLSVersion>
+OPLS4
+
+> <b_ppw_removed_non_hbond_waters>
+1
+
+> <s_Loopbuilder_DG_Seq>
+DG
+
+> <s_Loopbuilder_DG_Homology_Source>
+3HJE
+
+> <s_Loopbuilder_DG_Homology_Stemres>
+A:676_A:679
+
+> <s_Loopbuilder_DG_Homology_Loopres>
+A:677_A:678
+
+> <s_Loopbuilder_DG_Homology_Seq>
+DG
+
+> <r_Loopbuilder_DG_Homology_Similarity>
+1
+
+> <r_Loopbuilder_DG_Homology_Stem_Dist>
+6.33
+
+> <r_Loopbuilder_DG_Homology_Stem_Beta>
+110.44
+
+> <r_Loopbuilder_DG_Homology_Stem_Gamma>
+22.1
+
+> <s_Loopbuilder_DLGPAS_Seq>
+DLGPAS
+
+> <s_Loopbuilder_DLGPAS_Homology_Source>
+1GAK
+
+> <s_Loopbuilder_DLGPAS_Homology_Stemres>
+A:73_A:80
+
+> <s_Loopbuilder_DLGPAS_Homology_Loopres>
+A:74_A:79
+
+> <s_Loopbuilder_DLGPAS_Homology_Seq>
+KHLPVN
+
+> <r_Loopbuilder_DLGPAS_Homology_Similarity>
+0.333333333333333
+
+> <r_Loopbuilder_DLGPAS_Homology_Stem_Dist>
+16.55
+
+> <r_Loopbuilder_DLGPAS_Homology_Stem_Beta>
+121.44
+
+> <r_Loopbuilder_DLGPAS_Homology_Stem_Gamma>
+-89.86
+
+$$$$

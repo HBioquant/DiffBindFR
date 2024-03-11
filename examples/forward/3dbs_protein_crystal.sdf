@@ -1,0 +1,480 @@
+3dbs_ligand
+                    3D
+ Schrodinger Suite 2021-3.
+ 62 67  0  0  1  0            999 V2000
+   19.6860   59.5250   24.4390 O   0  0  0  0  0  0
+   22.2550   61.7810   22.1080 C   0  0  0  0  0  0
+   21.3750   65.3980   21.3670 C   0  0  0  0  0  0
+   22.5920   65.2050   20.8630 C   0  0  0  0  0  0
+   24.1570   63.2850   20.7550 N   0  0  0  0  0  0
+   20.6910   66.7430   21.2780 C   0  0  0  0  0  0
+   25.6090   61.4690   20.6670 C   0  0  0  0  0  0
+   23.4480   61.2570   21.7200 N   0  0  0  0  0  0
+   19.9210   68.3930   19.6720 C   0  0  0  0  0  0
+   19.5300   68.5240   18.1960 C   0  0  0  0  0  0
+   18.8850   66.2070   18.2080 C   0  0  0  0  0  0
+   18.9810   66.1720   19.7140 C   0  0  0  0  0  0
+   21.3800   60.9900   22.8100 N   0  0  0  0  0  0
+   17.2570   69.1770   15.8700 C   0  0  0  0  0  0
+   21.9500   59.8880   23.5830 C   0  0  0  0  0  0
+   21.0620   59.6020   24.7890 C   0  0  0  0  0  0
+   20.1610   66.9800   19.9550 N   0  0  0  0  0  0
+   19.2330   67.3420   15.4530 O   0  0  0  0  0  0
+   18.0130   67.5640   16.2420 S   0  0  0  0  0  0
+   17.0380   66.4970   15.9810 O   0  0  0  0  0  0
+   18.4720   67.5550   17.8980 N   0  0  0  0  0  0
+   20.6610   64.0680   22.1100 S   0  0  0  0  0  0
+   22.9930   63.8290   21.1100 C   0  0  0  0  0  0
+   22.0320   63.1230   21.7860 C   0  0  0  0  0  0
+   24.3750   61.9890   21.0520 C   0  0  0  0  0  0
+   26.2540   61.9140   19.5170 C   0  0  0  0  0  0
+   27.4900   61.3820   19.1820 C   0  0  0  0  0  0
+   28.0880   60.4370   19.9900 C   0  0  0  0  0  0
+   27.4540   60.0120   21.1410 C   0  0  0  0  0  0
+   27.8630   59.0900   22.0790 N   0  0  0  0  0  0
+   26.2510   60.5350   21.4380 C   0  0  0  0  0  0
+   25.8280   59.9200   22.6520 C   0  0  0  0  0  0
+   26.8030   59.0610   23.0310 N   0  0  0  0  0  0
+   19.2500   60.7430   23.8500 C   0  0  0  0  0  0
+   19.9550   60.8890   22.5000 C   0  0  0  0  0  0
+   23.1067   66.0158   20.3690 H   0  0  0  0  0  0
+   21.4027   67.5293   21.5299 H   0  0  0  0  0  0
+   19.8813   66.7871   22.0064 H   0  0  0  0  0  0
+   19.1047   68.7548   20.2972 H   0  0  0  0  0  0
+   20.8331   68.9603   19.8576 H   0  0  0  0  0  0
+   20.3985   68.3171   17.5706 H   0  0  0  0  0  0
+   19.1627   69.5325   18.0059 H   0  0  0  0  0  0
+   18.1155   65.5088   17.8788 H   0  0  0  0  0  0
+   19.8700   66.0233   17.7789 H   0  0  0  0  0  0
+   19.1752   65.1492   20.0368 H   0  0  0  0  0  0
+   18.1113   66.6722   20.1401 H   0  0  0  0  0  0
+   16.3577   69.3049   16.4725 H   0  0  0  0  0  0
+   17.9650   69.9727   16.1015 H   0  0  0  0  0  0
+   16.9948   69.2208   14.8129 H   0  0  0  0  0  0
+   22.9484   60.1620   23.9241 H   0  0  0  0  0  0
+   22.0095   58.9979   22.9567 H   0  0  0  0  0  0
+   21.3710   58.6652   25.2526 H   0  0  0  0  0  0
+   21.2028   60.3831   25.5361 H   0  0  0  0  0  0
+   25.7916   62.6665   18.8954 H   0  0  0  0  0  0
+   27.9920   61.7070   18.2827 H   0  0  0  0  0  0
+   29.0518   60.0297   19.7224 H   0  0  0  0  0  0
+   28.7509   58.6206   21.9721 H   0  0  0  0  0  0
+   24.8749   60.1826   23.0869 H   0  0  0  0  0  0
+   19.5255   61.5771   24.4953 H   0  0  0  0  0  0
+   18.1719   60.7051   23.6941 H   0  0  0  0  0  0
+   19.7775   59.9960   21.9007 H   0  0  0  0  0  0
+   19.6239   61.8080   22.0164 H   0  0  0  0  0  0
+  1 16  1  0  0  0
+  1 34  1  0  0  0
+  2  8  2  0  0  0
+  2 13  1  0  0  0
+  2 24  1  0  0  0
+  3  4  2  0  0  0
+  3  6  1  0  0  0
+  3 22  1  0  0  0
+  4 23  1  0  0  0
+  4 36  1  0  0  0
+  5 23  1  0  0  0
+  5 25  2  0  0  0
+  6 17  1  0  0  0
+  6 37  1  0  0  0
+  6 38  1  0  0  0
+  7 25  1  0  0  0
+  7 26  2  0  0  0
+  7 31  1  0  0  0
+  8 25  1  0  0  0
+  9 10  1  0  0  0
+  9 17  1  0  0  0
+  9 39  1  0  0  0
+  9 40  1  0  0  0
+ 10 21  1  0  0  0
+ 10 41  1  0  0  0
+ 10 42  1  0  0  0
+ 11 12  1  0  0  0
+ 11 21  1  0  0  0
+ 11 43  1  0  0  0
+ 11 44  1  0  0  0
+ 12 17  1  0  0  0
+ 12 45  1  0  0  0
+ 12 46  1  0  0  0
+ 13 15  1  0  0  0
+ 13 35  1  0  0  0
+ 14 19  1  0  0  0
+ 14 47  1  0  0  0
+ 14 48  1  0  0  0
+ 14 49  1  0  0  0
+ 15 16  1  0  0  0
+ 15 50  1  0  0  0
+ 15 51  1  0  0  0
+ 16 52  1  0  0  0
+ 16 53  1  0  0  0
+ 18 19  2  0  0  0
+ 19 20  2  0  0  0
+ 19 21  1  0  0  0
+ 22 24  1  0  0  0
+ 23 24  2  0  0  0
+ 26 27  1  0  0  0
+ 26 54  1  0  0  0
+ 27 28  2  0  0  0
+ 27 55  1  0  0  0
+ 28 29  1  0  0  0
+ 28 56  1  0  0  0
+ 29 30  1  0  0  0
+ 29 31  2  0  0  0
+ 30 33  1  0  0  0
+ 30 57  1  0  0  0
+ 31 32  1  0  0  0
+ 32 33  2  0  0  0
+ 32 58  1  0  0  0
+ 34 35  1  0  0  0
+ 34 59  1  0  0  0
+ 34 60  1  0  0  0
+ 35 61  1  0  0  0
+ 35 62  1  0  0  0
+M  END
+> <i_m_stars>
+0
+
+> <s_m_entry_id>
+810
+
+> <s_m_entry_name>
+Structure810
+
+> <s_pdb_PDB_TITLE>
+STRUCTURE OF PI3K GAMMA IN COMPLEX WITH GDC0941
+
+> <s_pdb_PDB_ID>
+3DBS
+
+> <r_pdb_PDB_CRYST1_a>
+144.284
+
+> <r_pdb_PDB_CRYST1_b>
+67.762
+
+> <r_pdb_PDB_CRYST1_c>
+106.972
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+95.31
+
+> <r_pdb_PDB_CRYST1_gamma>
+90
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+C 1 2 1
+
+> <i_pdb_PDB_CRYST1_z>
+4
+
+> <s_pdb_PDB_CLASSIFICATION>
+TRANSFERASE
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+02-JUN-08
+
+> <s_pdb_PDB_format_version>
+3.30
+
+> <r_pdb_PDB_R>
+0.219
+
+> <r_pdb_PDB_Rfree>
+0.262
+
+> <r_pdb_PDB_RESOLUTION>
+2.8
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_PH>
+7.2
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+A
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+D:\msc\VS\DEKOIS_2.0x\pi3kg\pi3kg_prot
+
+> <s_m_Source_File>
+3dbs.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+741
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2021-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <s_psp_EXECUTE_FUNCTION_Input_Structure_Hash>
+302636c900f1ee17a97c0331ca824346c008ebdee5e763fb6382ecf6
+
+> <s_ppw_het_states>
+eJztVbFuwkAM/ZVT1gI9+3KXBLZOXauOiAFRplLokA4V4t9rB7/LqQhV6sRAFvs59ruznaccK6rmbikPTZxfTdySzQaztdloNpltzLZmO7Pk4YCRQEngJJASWAm0BF4CMYGZwcz5rmBmMDOYGcwMZgYzg5nBHMAcwBzyGMAcwBwGZvV0ZnpxGq45cZpCNkM5g83VthFmpEisthRx0xjVnsgGz6iMv/xopVrXWLw5x7OfLEd8bYtsWTlHmtddZR88GmQU6BKJCzC+4bJGLxcLEDLQhjuAWA6sPb9hLFn3OwKcw+XUdAiMuQ0d4gbqcB66OjhUneBLQBi8RAPGqtGATtXRN4zNn/sR5GfcauqxiiIcQU0nh1VtCULI6CQcs4aSHFu99ut+6z63+/Wu/x4SWve+We8ePw67hXuePh32b25z+Nr3c8cL9yIp1fCZ3ZI28+ru2rxr8+a0GbsmjdqMXR2yNg2YNhUN2qy93vlSm8n/oc0Huj1x3n+c/xVnIchSqHdxghripKvi5FKcdCFO+Q3GVEOcirRwEGcGwWck4pz6ocSPD18qVbLTVaUS/qKr0w+Kj0vT
+
+> <b_ppw_ran_protassign>
+1
+
+> <r_pdb_PDB_EXPDTA_TEMPERATURE>
+100
+
+> <s_ff_OPLSVersion>
+OPLS4
+
+> <i_psp_model_num>
+0
+
+> <r_psp_Prime_Coulomb>
+-26251.9905737878
+
+> <r_psp_Prime_Covalent>
+6282.79806174617
+
+> <r_psp_Prime_vdW>
+4455.91073976985
+
+> <r_psp_Prime_Lipo>
+-2159.97618401857
+
+> <r_psp_Prime_Solv_GB>
+-6429.45710273938
+
+> <r_psp_Prime_Energy>
+-24679.4487922163
+
+> <s_psp_Prime_Energy_Force_Field>
+S-OPLS
+
+> <s_psp_Prime_Energy_Solvent_Model>
+VSGB2.1
+
+> <r_psp_Prime_Bond_Covalent>
+578.508010117462
+
+> <r_psp_Prime_Bond_SGB>
+63068.3586139674
+
+> <r_psp_Prime_Angle_Covalent>
+2393.05458840636
+
+> <r_psp_Prime_Angle_SGB>
+-27295.4312361525
+
+> <r_psp_Prime_Torsion_Covalent>
+3311.23546322235
+
+> <r_psp_Prime_NB14_LJ>
+6741.97549394007
+
+> <r_psp_Prime_NB14_Lipo>
+0
+
+> <r_psp_Prime_NB14_Elec>
+25235.4671928198
+
+> <r_psp_Prime_NB14_SGB>
+-20354.3891332792
+
+> <r_psp_Prime_NBShort_LJ>
+-1846.87373651158
+
+> <r_psp_Prime_NBShort_Lipo>
+-2159.97618401857
+
+> <r_psp_Prime_NBShort_Elec>
+-53444.8555799079
+
+> <r_psp_Prime_NBShort_SGB>
+24769.5953641263
+
+> <r_psp_Prime_NBLong_LJ>
+-439.191017658635
+
+> <r_psp_Prime_NBLong_Lipo>
+0
+
+> <r_psp_Prime_NBLong_Elec>
+1957.39781330033
+
+> <r_psp_Prime_NBLong_SGB>
+-1820.77588363104
+
+> <r_psp_Prime_Self_SGB>
+-44796.8148277704
+
+> <r_psp_Prime_Hbond>
+-431.651256620177
+
+> <r_psp_Prime_Packing>
+-85.4427000158893
+
+> <r_psp_Prime_SelfCont>
+-59.6397765504738
+
+> <s_Loopbuilder_KKKSLMDIPESQS_Seq>
+KKKSLMDIPESQS
+
+> <s_Loopbuilder_KKKSLMDIPESQS_Homology_Source>
+1HX6
+
+> <s_Loopbuilder_KKKSLMDIPESQS_Homology_Stemres>
+A:344_A:358
+
+> <s_Loopbuilder_KKKSLMDIPESQS_Homology_Loopres>
+A:345_A:357
+
+> <s_Loopbuilder_KKKSLMDIPESQS_Homology_Seq>
+NRDKPIYTLQYGN
+
+> <r_Loopbuilder_KKKSLMDIPESQS_Homology_Similarity>
+0.307692307692308
+
+> <r_Loopbuilder_KKKSLMDIPESQS_Homology_Stem_Dist>
+15.06
+
+> <r_Loopbuilder_KKKSLMDIPESQS_Homology_Stem_Beta>
+33.82
+
+> <r_Loopbuilder_KKKSLMDIPESQS_Homology_Stem_Gamma>
+-69.56
+
+> <s_Loopbuilder_GKGEDQGS_Seq>
+GKGEDQGS
+
+> <s_Loopbuilder_GKGEDQGS_Homology_Source>
+3H2D
+
+> <s_Loopbuilder_GKGEDQGS_Homology_Stemres>
+A:125_A:134
+
+> <s_Loopbuilder_GKGEDQGS_Homology_Loopres>
+A:126_A:133
+
+> <s_Loopbuilder_GKGEDQGS_Homology_Seq>
+ISHKANGT
+
+> <r_Loopbuilder_GKGEDQGS_Homology_Similarity>
+0.375
+
+> <r_Loopbuilder_GKGEDQGS_Homology_Stem_Dist>
+14.58
+
+> <r_Loopbuilder_GKGEDQGS_Homology_Stem_Beta>
+33.16
+
+> <r_Loopbuilder_GKGEDQGS_Homology_Stem_Gamma>
+-73.44
+
+> <s_Loopbuilder_YC_Seq>
+YC
+
+> <s_Loopbuilder_YC_Homology_Source>
+1UWS
+
+> <s_Loopbuilder_YC_Homology_Stemres>
+A:13_A:16
+
+> <s_Loopbuilder_YC_Homology_Loopres>
+A:14_A:15
+
+> <s_Loopbuilder_YC_Homology_Seq>
+QA
+
+> <r_Loopbuilder_YC_Homology_Similarity>
+0
+
+> <r_Loopbuilder_YC_Homology_Stem_Dist>
+8.08
+
+> <r_Loopbuilder_YC_Homology_Stem_Beta>
+139.02
+
+> <r_Loopbuilder_YC_Homology_Stem_Gamma>
+-118.98
+
+> <s_Loopbuilder_LPKHQPTPDPEGDRV_Seq>
+LPKHQPTPDPEGDRV
+
+> <s_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Source>
+2J4D
+
+> <s_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Stemres>
+A:25_A:41
+
+> <s_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Loopres>
+A:26_A:40
+
+> <s_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Seq>
+YALPSSSSVKRKGKG
+
+> <r_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Similarity>
+0.133333333333333
+
+> <r_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Stem_Dist>
+28.59
+
+> <r_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Stem_Beta>
+63.55
+
+> <r_Loopbuilder_LPKHQPTPDPEGDRV_Homology_Stem_Gamma>
+-63.38
+
+> <s_Loopbuilder_ILGNYKSFLGINK_Seq>
+ILGNYKSFLGINK
+
+> <s_Loopbuilder_ILGNYKSFLGINK_Homology_Source>
+2X4L
+
+> <s_Loopbuilder_ILGNYKSFLGINK_Homology_Stemres>
+A:290_A:304
+
+> <s_Loopbuilder_ILGNYKSFLGINK_Homology_Loopres>
+A:291_A:303
+
+> <s_Loopbuilder_ILGNYKSFLGINK_Homology_Seq>
+DRASTIQPADITE
+
+> <r_Loopbuilder_ILGNYKSFLGINK_Homology_Similarity>
+0.230769230769231
+
+> <r_Loopbuilder_ILGNYKSFLGINK_Homology_Stem_Dist>
+18.23
+
+> <r_Loopbuilder_ILGNYKSFLGINK_Homology_Stem_Beta>
+120.57
+
+> <r_Loopbuilder_ILGNYKSFLGINK_Homology_Stem_Gamma>
+75
+
+> <s_psp_Missing_Loops>
+A,322,357,WPLVDDCTGVTGYHEQLTIHGKDHESVFTVSLWD|A,435,460,GKAPALSSKASAESPSSESKGKVQ
+
+> <b_psp_distorted_structure>
+0
+
+$$$$

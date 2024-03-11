@@ -1,0 +1,150 @@
+3mhw_ligand
+                    3D
+ Schrodinger Suite 2021-3.
+ 16 17  0  0  1  0            999 V2000
+  -29.5790  -17.6000    9.0430 C   0  0  0  0  0  0
+  -30.4030  -19.8040   11.6350 N   0  0  0  0  0  0
+  -31.6130  -19.1420    9.4990 S   0  0  0  0  0  0
+  -28.4240  -17.0880    9.4690 C   0  0  0  0  0  0
+  -32.4300  -20.9140   11.2400 N   0  0  0  0  0  0
+  -27.8510  -17.4600   10.6270 C   0  0  0  0  0  0
+  -28.4280  -18.4020   11.4040 C   0  0  0  0  0  0
+  -29.5950  -18.9180   11.0100 C   0  0  0  0  0  0
+  -30.1590  -18.4920    9.8400 C   0  0  0  0  0  0
+  -31.4920  -20.0710   10.8950 C   0  0  0  0  0  0
+  -29.9929  -17.2850    8.0965 H   0  0  0  0  0  0
+  -27.9118  -16.3443    8.8766 H   0  0  0  0  0  0
+  -33.2222  -21.0647   10.6319 H   0  0  0  0  0  0
+  -32.3624  -21.4145   12.1146 H   0  0  0  0  0  0
+  -26.9234  -17.0048   10.9412 H   0  0  0  0  0  0
+  -27.9456  -18.7188   12.3169 H   0  0  0  0  0  0
+  1  4  2  0  0  0
+  1  9  1  0  0  0
+  1 11  1  0  0  0
+  2  8  1  0  0  0
+  2 10  2  0  0  0
+  3  9  1  0  0  0
+  3 10  1  0  0  0
+  4  6  1  0  0  0
+  4 12  1  0  0  0
+  5 10  1  0  0  0
+  5 13  1  0  0  0
+  5 14  1  0  0  0
+  6  7  2  0  0  0
+  6 15  1  0  0  0
+  7  8  1  0  0  0
+  7 16  1  0  0  0
+  8  9  2  0  0  0
+M  END
+> <i_m_stars>
+0
+
+> <s_m_entry_id>
+1039
+
+> <s_m_entry_name>
+Structure1039
+
+> <s_pdb_PDB_TITLE>
+THE COMPLEX CRYSTAL STRUCTURE OF UROKIANSE AND 2-AMINOBENZOTHIAZOLE
+
+> <s_pdb_PDB_ID>
+3MHW
+
+> <r_pdb_PDB_CRYST1_a>
+121.276
+
+> <r_pdb_PDB_CRYST1_b>
+121.276
+
+> <r_pdb_PDB_CRYST1_c>
+43.136
+
+> <r_pdb_PDB_CRYST1_alpha>
+90
+
+> <r_pdb_PDB_CRYST1_beta>
+90
+
+> <r_pdb_PDB_CRYST1_gamma>
+120
+
+> <s_pdb_PDB_CRYST1_Space_Group>
+H 3
+
+> <i_pdb_PDB_CRYST1_z>
+9
+
+> <s_pdb_PDB_CLASSIFICATION>
+HYDROLASE
+
+> <s_pdb_PDB_DEPOSITION_DATE>
+09-APR-10
+
+> <s_pdb_PDB_format_version>
+3.30
+
+> <r_pdb_PDB_R>
+0.205
+
+> <r_pdb_PDB_Rfree>
+0.234
+
+> <r_pdb_PDB_RESOLUTION>
+1.45
+
+> <s_pdb_PDB_EXPDTA>
+X-RAY DIFFRACTION
+
+> <r_pdb_PDB_EXPDTA_PH>
+4.6
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains>
+U
+
+> <s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1>
+1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000
+
+> <s_m_Source_Path>
+D:\msc\VS\DEKOIS_2.0x\upa\upa_prot
+
+> <s_m_Source_File>
+3mhw.pdb
+
+> <i_m_Source_File_Index>
+1
+
+> <s_ppw_entry_id_backup>
+1037
+
+> <b_ppw_prepared>
+1
+
+> <s_ppw_prepared_with_version>
+2021-3
+
+> <b_ppw_assigned_bond_orders>
+1
+
+> <b_ppw_added_hydrogens>
+1
+
+> <b_ppw_treated_metals>
+1
+
+> <b_ppw_created_disulfur>
+1
+
+> <s_ppw_het_states>
+eJxdkLESwiAMhl8lx9wqIBXbbk6unqPH0KudRHDAwev13SVQzSED95HkT/4wM8E6uMYjWtVUwE0FiHtCTXggbH/YcEJBKAl3hAoReZ2Xm8q1aQpguSAbuVUZUCTR/xL9rRBkOpsUZL2oSLnkXdIaxdiEaYpE8zXfRMnM0E/8PXwucS8MsksYwgTPyQ02vHOOw30c7PbhbQ+n+ujdDUb/cqED3sM53syY5QOP2ldb
+
+> <b_ppw_ran_protassign>
+1
+
+> <b_ppw_deleted_far_waters>
+1
+
+> <r_pdb_PDB_EXPDTA_TEMPERATURE>
+100
+
+$$$$
