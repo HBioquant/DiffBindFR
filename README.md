@@ -104,7 +104,7 @@ python pl.py ../app/test/reverse/structures -nb 12 -v
 ### Users-tailored pairing docking  <a name="userdefine"></a>
 The package allows users to customize pocket-molecule pairing strategies to conduct docking, but adhering rigorously to the prescribed task table format. On a compute cluster, DiffBindFR supports the job submission by SLURM and run all jobs in parallel as a [job array](https://slurm.schedmd.com/job_array.html).
 ```bash
-# In ths SLURM submission scripts named SLURM_jobs.sh
+# In the SLURM submission script named SLURM_jobs.sh
 # ...
 # Above is your SLRUM configuration and environment configuration
 
@@ -161,9 +161,9 @@ If you find our method useful, please cite it in your publications.
 ```
 
 ## License  <a name="license"></a>
-Released under Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
+Released under Clear BSD License. See the [LICENSE](LICENSE) file for details.
 
-Components of [mmcv](https://github.com/open-mmlab/mmcv) developed by OpenMMLab  (under Apache 2.0 license) and [pytorch-geometric](https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/data) (under MIT license) have been integrated in Druglib (under Apache 2.0 license).
+Components of [mmcv](https://github.com/open-mmlab/mmcv) developed by OpenMMLab  (under Apache 2.0 license) and [pytorch-geometric](https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/data) (under MIT license) have been integrated in Druglib (also under Clear BSD License).
 
 ## Acknowledgements  <a name="acknowledgements"></a>
 Our work is based on the following repositories:
