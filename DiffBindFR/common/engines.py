@@ -118,10 +118,10 @@ def load_dataloader(
         lmdb_mode = lmdb_mode,
         debug = debug,
     )
-
+    
     test_dataloader_default_args = dict(
         samples_per_gpu = batch_size,
-        workers_per_gpu = args.num_workers,
+        workers_per_gpu = cfg.data.get('workers_per_gpu', args.num_workers),
         dist = distributed, shuffle = False,
         use_bgg = use_bgg,
     )
