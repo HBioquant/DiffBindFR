@@ -170,11 +170,16 @@ Jupyter notebooks are also provided to help users understand DiffBindFR's confor
 If you find our method useful, please cite it in your publications.
 
 ```bibtex
-@article{zhu2023diffbindfr,
-  title={DiffBindFR: An SE(3) Equivariant Network for Flexible Protein-Ligand Docking},
+@article{D3SC06803J,
+  title={DiffBindFR: an SE(3) equivariant network for flexible protein–ligand docking},
   author={Zhu, Jintao and Gu, Zhonghui and Pei, Jianfeng and Lai, Luhua},
-  journal={arXiv preprint arXiv:2311.15201},
-  year={2023}
+  journal={Chem. Sci.},
+  year={2024},
+  volume={15},
+  number={21},
+  pages={7926-7942},
+  publisher={The Royal Society of Chemistry},
+  doi={10.1039/D3SC06803J},
 }
 ```
 
