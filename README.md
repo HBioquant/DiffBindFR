@@ -40,6 +40,12 @@ conda env create -f env.yaml
 conda activate diffbindfr
 ```
 
+Finally, **add permission to executable file**
+```shell
+cd /path/to/DiffBindFR/
+chmod +x druglib/ops/*/*
+```
+
 ### Installing from source
 
 If you’re sure you want to install from source, check the [recipe](requirements/) for current dependencies, install them, especially Pytorch and PyTorch-geometric, and then run in the project directory:
