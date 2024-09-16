@@ -3,6 +3,7 @@
 import sys, os, re
 import os.path as osp
 from setuptools import setup, find_packages
+from setuptools.command.install import install
 
 
 def readme():
@@ -96,6 +97,13 @@ def get_version():
     # get the local variabel in the executed string from version_py, where __version__ is a local varibale.
     return locals()['__version__']
 
+class CustomInstall(install):
+    def run(self):
+        install.run(self)
+        files = ['dssp/mkdssp', 'msms/msms', 'smina/smina.static']
+        for f in files:
+            file_path = os.path.join(here, 'druglib/ops', f)
+            os.chmod(file_path, 0o755)
 
 if __name__ == "__main__":
     setup(
@@ -131,6 +139,9 @@ if __name__ == "__main__":
         ],
         python_requires=">=3.9",
         install_requires=parse_requirements('requirements/runtime.txt'),
+        cmdclass={
+            'install': CustomInstall,
+        },
         entry_points={
             "console_scripts": [
                 "DiffBindFR=DiffBindFR.app.predict:main",
