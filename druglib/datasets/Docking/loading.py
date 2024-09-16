@@ -46,6 +46,8 @@ class LoadLigand:
                 ligand_file = dir_name + self.supported_ext[1 - self.supported_ext.index(ext)]
             if not osp.exists(ligand_file):
                 raise FileExistsError(f'Any {",".join(self.supported_ext)} file for the {dir_name} file is not Found')
+            # solve the issue: AttributeError: 'PosixPath' object has no attribute 'endswith' in read_mol
+            ligand_file = str(ligand_file)
         try:
             ligand = ligand_parser(
                 ligand_file,
