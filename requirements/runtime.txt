@@ -28,7 +28,7 @@ scipy>=1.12.0
 e3nn
 prody<=2.4.0
 biopython==1.80
-rdkit>=2023.03.2
+rdkit<=2023.03.2
 MDAnalysis
 einops
 py3Dmol
