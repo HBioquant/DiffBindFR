@@ -809,6 +809,7 @@ def pdb_parser(
         chain_id: Optional[str] = None,
         use_residuedepth: bool = False,
         use_ss: bool = False,
+        calc_sasa: bool = False,
         name: Optional[str] = None,
 ) -> Protein:
     """
@@ -824,6 +825,7 @@ def pdb_parser(
             And residue depth is the average distance of the atoms of a residue from the
             solvent accessible surface. Defaults to False.
         use_ss: bool. Calculate secondary structure and accessibility. Defaults to False.
+        calc_sasa: bool. Calculate the atom and residue level SASA. Defaults to False.
     Returns:
         A new `Protein` parsed from the pdb file.
     """
@@ -842,8 +844,10 @@ def pdb_parser(
             "Just use the first one."
         )
     model = models[0]
-    SR.compute(model, level = 'R')
-    SR.compute(model, level = 'A')
+
+    if calc_sasa:
+        SR.compute(model, level = 'R')
+        SR.compute(model, level = 'A')
 
     atom_positions = []
     aatype = []
@@ -873,9 +877,11 @@ def pdb_parser(
                 continue
             if use_ss and (chain.id, res.id) not in dssp:
                 continue
-            res_sasa = res.sasa
-            assert check_inf_nan_np(res_sasa), \
-                f'`residue_sasa` is inf or nan from {pdb_path}.'
+
+            if calc_sasa:
+                res_sasa = res.sasa
+                assert check_inf_nan_np(res_sasa), \
+                    f'`residue_sasa` is inf or nan from {pdb_path}.'
             
             resn3 = res.resname
             if resn3 in modified_mapping:
@@ -898,20 +904,22 @@ def pdb_parser(
                     # ignore the H atom and focus on the heavy atoms
                     continue
                 bfactor = atom.bfactor
-                atom_sasa = atom.sasa
                 assert check_inf_nan_np(bfactor), \
                     f'`bfactor` is inf or nan from {pdb_path}.'
-                assert check_inf_nan_np(atom_sasa), \
-                    f'`atom_sasa` is inf or nan from {pdb_path}.'
 
                 pos[pc.atom_order[atom.name]] = atom.coord
                 mask[pc.atom_order[atom.name]] = 1.0
                 res_b_factors[
                     pc.atom_order[atom.name]
                 ] = bfactor
-                atoms_sasa[
-                    pc.atom_order[atom.name]
-                ] = atom_sasa
+
+                if calc_sasa:
+                    atom_sasa = atom.sasa
+                    assert check_inf_nan_np(atom_sasa), \
+                        f'`atom_sasa` is inf or nan from {pdb_path}.'
+                    atoms_sasa[
+                        pc.atom_order[atom.name]
+                    ] = atom_sasa
 
             if np.sum(mask) < 0.5:
                 # If no known atom positions are reported for the residue then skip it.
@@ -925,8 +933,10 @@ def pdb_parser(
             residue_index.append(res.id[1])
             chain_ids.append(_chain_id) # chain id use pseudo id, NOT PDB chain id
             b_factors.append(res_b_factors)
-            sasa_atoms.append(atoms_sasa)
-            sasa_res.append(res_sasa)
+
+            if calc_sasa:
+                sasa_atoms.append(atoms_sasa)
+                sasa_res.append(res_sasa)
             if use_residuedepth:
                 _res_rd, _ca_rd = rd[chain.id, res.id]
                 res_rd.append(_res_rd)
@@ -942,8 +952,9 @@ def pdb_parser(
     if len(aatype) < 10:
         raise ValueError(f'Parsed protein file from {pdb_path} has less than 10 residues.')
 
-    atom_prop['sasa'] = np.array(sasa_atoms)
-    res_prop['sasa'] = np.array(sasa_res)
+    if calc_sasa:
+        atom_prop['sasa'] = np.array(sasa_atoms)
+        res_prop['sasa'] = np.array(sasa_res)
     if use_residuedepth:
         res_prop['res_rd'] = np.array(res_rd, dtype = float)
         assert check_inf_nan_np(res_prop['res_rd']), \
