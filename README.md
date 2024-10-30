@@ -2,6 +2,7 @@
 
 [![Chem. Sci.](https://img.shields.io/badge/paper-Chem.%20Sci.-B31B1B.svg)](https://doi.org/10.1039/D3SC06803J)
 [![pytorch](https://img.shields.io/badge/PyTorch_1.13+-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+[![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HBioquant/DiffBindFR/blob/main/notebooks/DiffBindFR_demo_colab.ipynb)
 
 This is the official repository for the DiffBindFR, which is the accurate diffusion model based flexible protein-ligand docking method. This repository contains a part of our in-house $\color{Red}\text{Deep Learning Based Drug Discovery Python Packages, named Druglib}$, and all inference and evaluation scripts to help users reproduce our reported results and apply it in protein-ligand structure modeling and structure-based drug design. We expect DiffBindFR is helpful for your awesome research. If you have any question, feel free to open a [github issue](https://github.com/HBioquant/DiffBindFR/issues) or reach out to us: [zhujt@stu.pku.edu.cn](zhujt@stu.pku.edu.cn), [guzhh20@stu.pku.edu.cn](guzhh20@stu.pku.edu.cn).
 
