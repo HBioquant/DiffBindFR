@@ -9,14 +9,14 @@ pip install python-constraint pint
 cd ${WorkDir}
 echo "Install openff-toolkit"
 
-version="stable"
+version="0.15.2"
 wget https://github.com/openforcefield/openff-toolkit/archive/refs/tags/${version}.zip
 
 unzip ${version}.zip && cd openff-toolkit-${version}/ && python -m pip install .
 
 echo "Install openff-units"
 
-version="0.2.0"
+version="0.2.2"
 wget https://github.com/openforcefield/openff-units/archive/refs/tags/${version}.zip
 
 unzip ${version}.zip && cd openff-units-${version}/ && python -m pip install . && cd ..
